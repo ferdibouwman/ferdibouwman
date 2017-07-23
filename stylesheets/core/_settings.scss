@@ -1,0 +1,138 @@
+// =========== Settings
+
+// Set your own font
+$font-family-body: 'Raleway', sans-serif;
+$font-family-heading: 'Raleway', sans-serif;
+
+
+// The base font-size, all other elements will adjust to this value
+$font-size-base: 15px;
+
+$color-font:            #747474; // Default
+$color-heading:         #564645; // Default
+
+$font-size-10: 			0.75rem;
+$font-size-20: 			0.875rem;
+$font-size-30: 			1rem;
+$font-size-40: 			1.125rem;
+$font-size-50: 			1.313rem;
+
+$font-size-h1:          2rem;
+$line-height-h1:        2.1rem;
+$font-family-h1:        $font-family-heading;
+$font-weight-h1:        700;
+$color-heading-h1:      $color-heading;
+
+$font-size-h2:          1.5rem;
+$line-height-h2:        1.6rem;
+$font-family-h2:        $font-family-heading;
+$font-weight-h2:        700;
+$color-heading-h2:      $color-heading;
+
+$font-size-h3:          1.3rem;
+$line-height-h3:        1.4rem;
+$font-family-h3:        $font-family-heading;
+$font-weight-h3:        700;
+$color-heading-h3:      $color-heading;
+
+$font-size-h4:          14px;
+$line-height-h4:        19.5px;
+$font-family-h4:        $font-family-body;
+$font-weight-h4:        700;
+$color-heading-h4:      #ddd;
+
+$font-size-h5:          12px;
+$line-height-h5:        $font-size-h5;
+$font-family-h5:        $font-family-heading;
+$font-weight-h5:        700;
+$color-heading-h5:      $color-heading;
+
+$font-size-h6:          12px;
+$line-height-h6:        $font-size-h6;
+$font-family-h6:        $font-family-heading;
+$font-weight-h6:        700;
+$color-heading-h6:      $color-heading;
+
+// The grid columns will be used in the grid mixin, 48 is standard
+$grid-columns: 48;
+
+
+// Adjust the website's maximum width.
+$max-width: 1140px;
+
+
+// Use the spacing variable on margins and paddings
+$spacing: 1rem;
+
+
+// Adjust the border-radius
+$border-radius-10: 0.125rem;
+$border-radius-20: 0.313rem;
+
+
+// Media queries
+// Adjust them to you needs or add more
+$breakpoint-10: 600px;
+$breakpoint-20: 750px;
+$breakpoint-30: 1000px;
+$breakpoint-40: 1200px;
+
+$header-height: 65px;
+
+$hero-height-10: 200px;
+$hero-height-20: 300px;
+$hero-height-30: 400px;
+$hero-height-40: 500px;
+
+// Z-index plan
+$z-index-10: 10;
+$z-index-20: 20;
+$z-index-30: 30;
+
+
+// Animation beziers
+$bezier-a: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+// Colors
+// Add your own color variables from light to dark.
+
+// Color primary
+
+$color-primary: #768F51;
+$color-primary-30: lighten($color-primary, 10%) ;
+$color-primary-50: $color-primary; // Default
+$color-primary-70: darken($color-primary, 10%);
+
+// Color secondary
+$color-secondary: #564645;
+$color-secondary-30: lighten($color-secondary, 10%);
+$color-secondary-50: $color-secondary; // Default
+$color-secondary-70: darken($color-secondary, 10%);
+
+// Color success
+$color-success-50: #39b924; // Default
+$color-success-70: #249c11;
+
+// Color alert
+$color-alert-50: #f3490d; // Default
+$color-alert-70: #d33e09;
+
+$color-danger-50: #d60b00;
+
+// Color neutral
+$color-neutral: #000;
+
+$color-neutral-10: lighten($color-neutral, 90%);
+$color-neutral-20: lighten($color-neutral, 80%);
+$color-neutral-30: lighten($color-neutral, 70%);
+$color-neutral-40: lighten($color-neutral, 60%);
+$color-neutral-50: lighten($color-neutral, 50%);
+$color-neutral-60: lighten($color-neutral, 40%);
+$color-neutral-70: lighten($color-neutral, 30%);
+$color-neutral-80: lighten($color-neutral, 20%);
+$color-neutral-90: lighten($color-neutral, 10%);
+
+// Color basics
+$black: #000;
+$white: #fff;

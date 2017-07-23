@@ -1,0 +1,7 @@
+html{
+	@include transition(all, 200ms, ease);
+}
+
+body {
+    @include transition(all, 200ms, ease);
+}
