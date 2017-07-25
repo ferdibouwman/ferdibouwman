@@ -1,15 +1,15 @@
 // =========== Settings
 
 // Set your own font
-$font-family-body: 'Raleway', sans-serif;
-$font-family-heading: 'Raleway', sans-serif;
+$font-family-body: 'Raleway', Arial, Helvetica, sans-serif;
+$font-family-heading: 'Bitter', Georgia, serif;
 
 
 // The base font-size, all other elements will adjust to this value
 $font-size-base: 15px;
 
-$color-font:            #747474; // Default
-$color-heading:         #564645; // Default
+$color-font:            #555; // Default
+$color-heading:         #000; // Default
 
 $font-size-10: 			0.75rem;
 $font-size-20: 			0.875rem;
@@ -99,13 +99,13 @@ $bezier-a: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 // Color primary
 
-$color-primary: #768F51;
+$color-primary: #cc0000;
 $color-primary-30: lighten($color-primary, 10%) ;
 $color-primary-50: $color-primary; // Default
 $color-primary-70: darken($color-primary, 10%);
 
 // Color secondary
-$color-secondary: #564645;
+$color-secondary: #555;
 $color-secondary-30: lighten($color-secondary, 10%);
 $color-secondary-50: $color-secondary; // Default
 $color-secondary-70: darken($color-secondary, 10%);

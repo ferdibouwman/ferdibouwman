@@ -4,4 +4,17 @@ html{
 
 body {
     @include transition(all, 200ms, ease);
+
+	&.is-active {
+		overflow: hidden;
+	}
+}
+
+main.content {
+	width: 100%;
+
+	@media (min-width: $breakpoint-20) {
+		width:	calc(100% - 200px);
+		transform: translateX(200px);
+	}
 }

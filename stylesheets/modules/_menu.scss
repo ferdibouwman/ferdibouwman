@@ -1,0 +1,131 @@
+div.menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #f1f1f1;
+    z-index: 8888;
+    visibility:hidden;
+    opacity:0;
+    @include transition(opacity ,300ms, ease);
+
+    &.is-active {
+        visibility:visible;
+        opacity:1;
+        @include transition(opacity ,300ms, ease);
+    }
+
+    .inner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        ul {
+            margin: 0;
+            list-style-type: none;
+            li {
+                width: 200px;
+                text-align: center;
+
+                a{
+                    width: 200px;
+                    display: block;
+                    transform: translateY(0);
+                    margin: 30px auto;
+                    font-size: 1em;
+                    font-family: $font-family-heading;
+                    color: $color-secondary-50;
+                    text-align: center;
+                    @include transition(all ,300ms, ease);
+
+                    hr {
+                        width: 100px;
+                        margin: 0.3rem 50px;
+                    }
+                    span {
+                        display: block;
+                        width: 100%;
+
+                        &.title {
+                            text-transform: uppercase;
+                        }
+
+                        &.sub {
+                            font-size: 0.8rem;
+                            font-family: $font-family-body;
+                        }
+                    }
+
+                    &:hover {
+                        color: $color-primary-70;
+                        @include transition(all ,300ms, ease);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        @include grid(48);
+        position: absolute;
+        height: 40px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        @include transition(all ,300ms, ease);
+
+        i {
+            margin-left: $spacing;
+            font-size: 1.5em;
+            color: $color-neutral-30;
+
+            &.fa-facebook-square {
+                margin-left: 0;
+
+                &:hover {
+                    color: #3b5998;
+                    @include transition(all ,300ms, ease);
+                }
+            }
+
+            &.fa-instagram {
+
+                &:hover {
+                    color: #fcaf45;
+                    @include transition(all ,300ms, ease);
+                }
+            }
+
+            &.fa-linkedin-square {
+
+                &:hover {
+                    color: #0077b5;
+                    @include transition(all ,300ms, ease);
+                }
+            }
+        }
+
+
+    }
+
+
+    @media (min-width: $breakpoint-20) {
+        height: 100%;
+        width: 200px;
+        visibility:visible;
+        opacity:1;
+    }
+}
+
+.hamburger {
+    position: relative;
+    z-index: 9999;
+
+    @media (min-width: $breakpoint-20) {
+        visibility:hidden;
+        opacity:0;
+    }
+}

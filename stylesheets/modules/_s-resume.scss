@@ -1,0 +1,104 @@
+section.s-resume {
+    header {
+        @include grid(48);
+        margin-bottom: $spacing * 6;
+
+        h1 {
+            text-align: center;
+            margin-bottom: $spacing / 2;
+        }
+        .contact-info {
+            text-align: center;
+        }
+    }
+    .block {
+        @include grid(48);
+        margin-bottom: $spacing;
+
+        .title {
+            @include grid(48);
+            border-bottom: 1px solid $color-neutral-10;
+            margin-bottom: $spacing;
+
+            h2 {
+                margin-bottom: $spacing / 2;
+            }
+        }
+
+        .content {
+            @include grid(48);
+            margin-bottom: $spacing;
+
+            h3 {
+                @include grid(48);
+                margin-bottom: 0;
+                font-size: $spacing;
+                margin-right: $spacing;
+            }
+
+            .block {
+                @include grid(48);
+
+                ul {
+                    display: inline-block;
+                }
+            }
+
+
+            span.sub-title {
+                font-size: $spacing * 0.8;
+                margin-bottom: $spacing / 2;
+                display: inline-block;
+            }
+        }
+
+        &.skills {
+            .content {
+                .block {
+                    @include grid(48);
+                }
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-30) {
+        header {
+            @include grid(48);
+            margin-bottom: $spacing * 6;
+        }
+        .block {
+            @include grid(48);
+            margin-bottom: $spacing * 2;
+
+            .title {
+                @include grid(12,2);
+                border-bottom: none;
+            }
+
+            .content {
+                @include grid(36);
+                margin-bottom: $spacing * 2;
+
+                h3 {
+                    width: auto;
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: $spacing;
+                    margin-right: $spacing;
+                }
+
+                .block {
+                    @include grid(36);
+                }
+            }
+
+            &.skills {
+                .content {
+                    .block {
+                        @include grid(16);
+                    }
+                }
+            }
+        }
+    }
+}
