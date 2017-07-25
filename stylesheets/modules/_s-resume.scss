@@ -1,16 +1,4 @@
 section.s-resume {
-    header {
-        @include grid(48);
-        margin-bottom: $spacing * 6;
-
-        h1 {
-            text-align: center;
-            margin-bottom: $spacing / 2;
-        }
-        .contact-info {
-            text-align: center;
-        }
-    }
     .block {
         @include grid(48);
         margin-bottom: $spacing;
@@ -21,6 +9,7 @@ section.s-resume {
             margin-bottom: $spacing;
 
             h2 {
+				color: $color-primary-70;
                 margin-bottom: $spacing / 2;
             }
         }
@@ -41,6 +30,11 @@ section.s-resume {
 
                 ul {
                     display: inline-block;
+					color: $color-primary-70;
+
+					li {
+						color: $color-font;
+					}
                 }
             }
 
@@ -49,6 +43,7 @@ section.s-resume {
                 font-size: $spacing * 0.8;
                 margin-bottom: $spacing / 2;
                 display: inline-block;
+				font-style: italic;
             }
         }
 
@@ -80,7 +75,7 @@ section.s-resume {
                 margin-bottom: $spacing * 2;
 
                 h3 {
-                    width: auto;
+                    width: 100%;
                     display: inline-block;
                     margin-bottom: 0;
                     font-size: $spacing;

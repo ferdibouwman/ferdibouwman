@@ -1,14 +1,18 @@
 <?php include ('header.php'); ?>
+<section class="s-heading">
+    <div class="l-container">
+		<header>
+		    <h1>Ferdi Bouwman</h1>
+		    <div class="contact-info">
+		        <span>ferdi.bouwman@gmail.com</span> | <span>+31630052733</span><br>
+		        <span>Assen, Nederland</span>
+		    </div><!-- contact-info -->
+		</header>
+	</div><!-- container -->
+</section><!-- s-heading -->
+
 <section class="s-resume">
     <div class="l-container">
-<header>
-    <h1>Ferdi Bouwman</h1>
-    <div class="contact-info">
-        <span>ferdi.bouwman@gmail.com</span> | <span>+31630052733</span><br>
-        <span>Assen, Nederland</span>
-    </div>
-
-</header>
         <div class="block profile">
             <div class="title">
                 <h2>Profiel</h2>

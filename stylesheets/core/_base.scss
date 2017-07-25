@@ -91,6 +91,7 @@ h6 {
 // Paragraphs
 p {
   margin-bottom: $spacing;
+  line-height: $line-height-base;
 
   &.is-lead { font-size: $font-size-40; }
 }

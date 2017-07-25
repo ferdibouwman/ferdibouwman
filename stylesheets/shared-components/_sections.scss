@@ -1,17 +1,12 @@
 section {
-	@include grid(48,3);
-	padding-top: $spacing * 4;
+padding-top: $spacing * 6;
 
-
-	&.is-first {
-		margin-top: $header-height;
-	}
 	.l-container {
-		padding: 0;
+
 	}
 
 	@media (min-width: $breakpoint-20) {
-		@include grid(48,2);
+
 	}
 
 	@media (min-width: $breakpoint-30) {

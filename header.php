@@ -52,9 +52,10 @@
 	</div>
 
 	<div class="footer">
-		<i class="fa fa-facebook-square" aria-hidden="true"></i>
-		<i class="fa fa-instagram" aria-hidden="true"></i>
-		<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+		<a href="https://www.facebook.com/ferdi.bouwman1"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+		<a href="https://www.linkedin.com/in/ferdibouwman/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/FerdiBouwman"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+		<a href="https://www.instagram.com/ferdibouwman/?hl=nl"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 	</div>
 </div>
 
@@ -63,5 +64,6 @@
 		<div class="hamburger-inner"></div>
 	</div>
 </button>
+
 
 <main class="content">
